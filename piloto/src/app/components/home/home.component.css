@@ -1,0 +1,10 @@
+.titulo{
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid #dadada;
+}
+h2{
+    color: #256E9A;
+    padding: 6px;
+    
+}

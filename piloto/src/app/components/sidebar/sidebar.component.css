@@ -1,0 +1,26 @@
+#container{
+    background-color: #f2f2f2;
+    min-height: 100vh;
+    width: 40px;
+    transition: .3s;
+    border-right: 1px solid #dadada;
+    overflow: hidden;
+}
+#container:hover{
+    width: 100px;
+}
+#sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+}
+.bloco-img{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+}
+.bloco-img img{
+    padding: 6px;
+    width: 40px;
+}
